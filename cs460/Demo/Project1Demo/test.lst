@@ -1,0 +1,63 @@
+Lexical listing for file:	test.in
+
++123identifier-int/abc.456*i%--++
+	1:1	PLUS_T	+
+	1:4	NUMLIT_T	123
+	1:14	IDENT_T	identifier
+	1:15	MINUS_T	-
+	1:18	INTTYPE_T	int
+	1:19	DIV_T	/
+	1:22	IDENT_T	abc
+	1:26	NUMLIT_T	.456
+	1:27	MULT_T	*
+	1:28	IDENT_T	i
+	1:29	MOD_T	%
+	1:31	MINUSMINUS_T	--
+	1:33	PLUSPLUS_T	++
+i1 ===!=_i2><>=___<= &&||main!float
+	2:2	IDENT_T	i1
+	2:5	EQUALTO_T	==
+	2:6	ASSIGN_T	=
+	2:8	NOTEQ_T	!=
+	2:11	IDENT_T	_i2
+	2:12	GT_T	>
+	2:13	LT_T	<
+	2:15	GTE_T	>=
+	2:18	IDENT_T	___
+	2:20	LTE_T	<=
+	2:23	LOGAND_T	&&
+	2:25	LOGOR_T	||
+	2:29	MAIN_T	main
+	2:30	NOT_T	!
+	2:35	DBLTYPE_T	float
+& 123.456|123.^while <<.456>>$void
+	3:1	AND_T	&
+	3:9	NUMLIT_T	123.456
+	3:10	OR_T	|
+	3:14	NUMLIT_T	123.
+	3:15	XOR_T	^
+	3:20	WHILE_T	while
+	3:23	SHIFTL_T	<<
+	3:27	NUMLIT_T	.456
+	3:29	SHIFTR_T	>>
+	Error	3:30	Invalid characters found '$'
+	3:34	VOID_T	void
+~abc.xyz}123.xyz){ #(else@;
+	4:1	TILDA_T	~
+	4:4	IDENT_T	abc
+	Error	4:6	Invalid characters found '.x'
+	4:8	IDENT_T	yz
+	4:9	RBRACE_T	}
+	4:13	NUMLIT_T	123.
+	4:16	IDENT_T	xyz
+	4:17	RPAREN_T	)
+	4:18	LBRACE_T	{
+	Error	4:20	Invalid characters found '#'
+	4:21	LPAREN_T	(
+	4:25	ELSE_T	else
+	Error	4:26	Invalid characters found '@'
+	4:27	SEMI_T	;
+  ,?:
+	5:3	COMMA_T	,
+	5:4	QUEST_T	?
+	5:5	COLON_T	:

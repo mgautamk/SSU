@@ -1,0 +1,26 @@
+bool hsolve (long long board, vector<Move> &solution, hash &H, vector<int> &probes, vector<Move> & Last){
+  int num_probes = 0;
+  cout << board << endl;
+  if (board == 0)
+    return false;
+  if (solved(board))
+    return true;
+  //add hash check and return false if in the hash
+  vector<Move> currentMoves;
+  possibleMoves(board, currentMoves);
+  Move last;
+  for (auto m:currentMoves){
+    last = m;
+    if (!H.contains(m.board, num_probes)){
+      if (hsolve(m.board, solution, H, probes, Last)){
+	solution.insert(solution.begin(), m);
+	return true;
+      }
+      else
+	H.insert(m.board, num_probes); //add currentboard to the hash
+    }
+    probes.push_back(num_probes);
+  }
+  Last.push_back(last);
+  return false;
+}

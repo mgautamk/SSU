@@ -1,0 +1,30 @@
+#include <iostream>
+
+
+using namespace std;
+
+long long fib(int n)
+{
+  //returns nth fib number. Stores (n-1)th fib number
+  static long long int temp;
+  cout << temp << endl;
+  if (n == 0)
+    {
+      temp = 1;
+      return 0;;
+    }
+  if(n == 1)
+    {
+      temp = 0;
+      return 1;
+    }
+  long long int temp1 = fib(n-1); //temp1 holds fib n-2
+  long long int temp2 = temp + temp1;
+  temp = temp1;
+  return temp2;
+}
+
+int main()
+{
+  cout << fib(5) << endl;
+}

@@ -1,0 +1,12 @@
+Debug output listing for file:	test.in
+
++123identifier-int/abc.456*i%--++
+i1 ===!=_i2><>=___<= &&||main!float
+& 123.456|123.^while <<.456>>$void
+	Error	3:30	Invalid characters found '$'
+~abc.xyz}123.xyz){ #(else@;
+	Error	4:6	Invalid characters found '.x'
+	Error	4:20	Invalid characters found '#'
+	Error	4:26	Invalid characters found '@'
+  ,?:
+4 errors found in input file

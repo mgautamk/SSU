@@ -1,0 +1,13 @@
+all: H03.out
+
+H03.out: mgautamH03.o fraction.o
+	g++ -std=c++11 mgautamH03.o fraction.o -o H03.out
+
+mgautamH03.o: mgautamH03.cpp
+	g++ -c  mgautamH03.cpp
+
+fraction.o: fraction.cpp
+	g++ -std=c++11 -c fraction.cpp
+
+clean:
+	rm H03.out *.o

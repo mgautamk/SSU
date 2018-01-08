@@ -1,0 +1,52 @@
+#include<iostream>
+#include<cmath>
+#include<vector>
+
+
+using namespace std;
+
+void insertionSort(int[] arr) {
+
+  int i, j, newValue;
+
+  for (i = 1; i < arr.length; i++) {
+
+    newValue = arr[i];
+
+    j = i;
+
+    while (j > 0 && arr[j - 1] > newValue) {
+
+      arr[j] = arr[j - 1];
+
+      j--;
+
+    }
+
+    arr[j] = newValue;
+
+  }
+
+}
+
+int main ()
+{
+
+  int average;
+  int temp;
+  vector<int> vector;
+  int number;
+  srand(time(NULL));
+  //  cout << "Give me a number:"<<endl;
+  // cin >> number;
+  for (int i = 0; i < number; i++)
+    {
+      for (int j = 0; j > 1000; j++)
+	vector.push_back(rand()%101);
+      temp = insertionsort(vector)
+ 
+
+
+
+
+}

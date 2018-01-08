@@ -1,0 +1,74 @@
+;;;Author: Mahesh Gautam
+;;;Assignment: Homework 6 (scheme)
+;;;Instructor: Dr. Watts
+;;;Date: Spring 2016
+;;;**********************************************************************
+;;;Question 1 "all-reverse"
+;;; recursively reverse the input list (and sublists of that list)
+(define all-reverse
+  (lambda (lst)
+    (if (or (not (list? lst)) (null? lst))
+	lst
+	(append (all-reverse (cdr lst)) (list (all-reverse (car lst)))))))
+;;;test
+(all-reverse '(a(b(c d))(e f)))
+
+;;;Question 2 "quicksort"
+;;;helper function for quicksort
+(define quicksort-helper
+  (lambda (lst)
+    (if (null? lst)
+	lst
+	(append (quicksort-helper (filter (lambda (x) (< x (car lst))) (cdr lst))) (cons (car lst) (quicksort-helper (filter (lambda (x) (or (= x (car lst)) (> x (car lst)))) (cdr lst))))))))
+
+;;;Integer copy -- helper for quicksort
+(define integer-copy
+  (lambda (lst)
+    (cond
+     ((null? lst) lst)
+     ((integer? (car lst)) (cons (car lst) (integer-copy (cdr lst))))
+     (else (integer-copy (cdr lst))))))
+
+;;;function quicksort
+(define quicksort
+  (lambda (lst)
+    (if (not (list? lst))
+	"First argument must be a list"
+	(quicksort-helper (integer-copy lst)))))
+
+;;;Test quicksort
+(quicksort '(1 5 3 6 8 92 –1 0 4 5 3))
+
+;;;Question 3 "mergesort" -> this needs to sort in descending order
+;;;helper function for mergesort, inputs a list, outputs the first n elements of the list
+(define (take as n)
+  (if (or (null? as) (<= n 0))
+      '()
+      (cons (car as) (take (cdr as) (- n 1)))))
+
+;; another helper function for mergsort -> drops up to the first n elements from the list
+;; inputs a list, outputs the last (length - n) elements of the list, or a null list if n > length
+(define (drop as n)
+  (if (or (null? as) (<= n 0))
+      as
+          (drop (cdr as) (- n 1))))
+
+;;;main function that does the mergesort
+(define (mergesort as)
+  (define (sort as)
+    (letrec ((merge (lambda (ls rs)
+		      (cond ((null? ls) rs)
+			    ((null? rs) ls)
+			    ((> (car ls) (car rs)) (cons (car ls) (merge (cdr ls) rs)))
+			    (else (cons (car rs) (merge ls (cdr rs))))))))
+      (if (or (null? as) (< (length as) 2))
+	  as
+	  (let ((half (quotient (length as) 2)))
+	    (merge (sort (take as half)) (sort (drop as half)))))))
+  (if (list? as)
+      (sort (filter number? as))
+      as))
+
+
+;;;Test mergesort
+(mergesort ‘(1 5 3 6 8 92 –1 0 4 5 3))

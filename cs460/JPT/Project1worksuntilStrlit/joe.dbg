@@ -1,0 +1,18 @@
+    1: a
+    IDENT_T       a
+    NL_T          newline
+    2: this is a test
+    IDENT_T       this
+    IS_T          is
+    IDENT_T       a
+    IDENT_T       test
+    NL_T          newline
+    3: 	here is a tabbed line
+    TAB_T         \t
+    IDENT_T       here
+    IS_T          is
+    IDENT_T       a
+    IDENT_T       tabbed
+    IDENT_T       line
+    NL_T          newline
+0 errors found in input file

@@ -1,0 +1,27 @@
+/*
+ * addAndSubtract1.c
+ * Reads two Integers from user, then performs the 
+ * addition and subtraction
+ * Mahesh Gautam - Oct 17 2014
+ */
+
+#include <stdio.h>
+
+int main(void)
+{
+  int w,x,p,y,z,q;
+
+  printf("Enter two Integers: ");
+  scanf("%i %i %i", &w, &x, &p);
+  y = w;
+  y += x;
+  z = w;
+  z -= x;
+  q = p;
+  q *= x;
+
+  printf("sum = %i, difference = %i\n, product = %i", y, z, q);
+
+
+  return 0;
+}

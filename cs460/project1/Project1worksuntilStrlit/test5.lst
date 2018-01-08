@@ -1,0 +1,2 @@
+    1: # take input from the user
+    2: num = int(input("Enter a number: ))

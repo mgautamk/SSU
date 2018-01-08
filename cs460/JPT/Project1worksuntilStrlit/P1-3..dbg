@@ -1,0 +1,427 @@
+    1:     1: # Program: CS 115 Lab 6a
+
+    INTLIT_T      1
+    COLON_T       :
+    2:     2: # Author: Your name
+
+    INTLIT_T      2
+    COLON_T       :
+    3:     3: # Description: This program will ask the user for a value
+
+    INTLIT_T      3
+    COLON_T       :
+    4:     4: # and tell the user whether the value is even or odd.
+
+    INTLIT_T      4
+    COLON_T       :
+    5:     5: 
+
+    INTLIT_T      5
+    COLON_T       :
+    NL_T          \n
+    6:     6: 
+
+    INTLIT_T      6
+    COLON_T       :
+    NL_T          \n
+    7:     7: def main():
+
+    INTLIT_T      7
+    COLON_T       :
+    DEF_T         def
+    IDENT_T       main
+    LPAREN_T      (
+    RPAREN_T      )
+    COLON_T       :
+    NL_T          \n
+    8:     DEF_T         def
+
+    IDENT_T       DEF_T
+    DEF_T         def
+    NL_T          \n
+    9:     IDENT_T       main
+
+    IDENT_T       IDENT_T
+    IDENT_T       main
+    NL_T          \n
+    10:     LPAREN_T      (
+
+    IDENT_T       LPAREN_T
+    LPAREN_T      (
+    NL_T          \n
+    11:     RPAREN_T      )
+
+    IDENT_T       RPAREN_T
+    RPAREN_T      )
+    NL_T          \n
+    12:     COLON_T       :
+
+    IDENT_T       COLON_T
+    COLON_T       :
+    NL_T          \n
+    13:     8: 
+
+    INTLIT_T      8
+    COLON_T       :
+    NL_T          \n
+    14:     9: 	N = int(input('Enter a number: '))
+
+    INTLIT_T      9
+    COLON_T       :
+    TAB_T         \t
+    IDENT_T       N
+    ASSIGN_T      =
+    INT_T         int
+    LPAREN_T      (
+    INPUT_T       input
+    LPAREN_T      (
+    STRLIT_T      'Enter a number: '
+    RPAREN_T      )
+    RPAREN_T      )
+    NL_T          \n
+    15:     TAB_T         \t
+
+    IDENT_T       TAB_T
+Error: Invalid character found: \ at 15,19
+    ERROR_T       \
+    IDENT_T       t
+    NL_T          \n
+    16:     IDENT_T       N
+
+    IDENT_T       IDENT_T
+    IDENT_T       N
+    NL_T          \n
+    17:     ASSIGN_T      =
+
+    IDENT_T       ASSIGN_T
+    ASSIGN_T      =
+    NL_T          \n
+    18:     INT_T         int
+
+    IDENT_T       INT_T
+    INT_T         int
+    NL_T          \n
+    19:     LPAREN_T      (
+
+    IDENT_T       LPAREN_T
+    LPAREN_T      (
+    NL_T          \n
+    20:     INPUT_T       input
+
+    IDENT_T       INPUT_T
+    INPUT_T       input
+    NL_T          \n
+    21:     LPAREN_T      (
+
+    IDENT_T       LPAREN_T
+    LPAREN_T      (
+    NL_T          \n
+    22:     STRLIT_T      'Enter a number: '
+
+    IDENT_T       STRLIT_T
+    STRLIT_T      'Enter a number: '
+    NL_T          \n
+    23:     RPAREN_T      )
+
+    IDENT_T       RPAREN_T
+    RPAREN_T      )
+    NL_T          \n
+    24:     RPAREN_T      )
+
+    IDENT_T       RPAREN_T
+    RPAREN_T      )
+    NL_T          \n
+    25:     10: 
+
+    INTLIT_T      10
+    COLON_T       :
+    NL_T          \n
+    26:     11: 	if N % 2 == 1:
+
+    INTLIT_T      11
+    COLON_T       :
+    TAB_T         \t
+    IF_T          if
+    IDENT_T       N
+    MOD_T         %
+    INTLIT_T      2
+    EQUAL_T       ==
+    INTLIT_T      1
+    COLON_T       :
+    NL_T          \n
+    27:     TAB_T         \t
+
+    IDENT_T       TAB_T
+Error: Invalid character found: \ at 27,19
+    ERROR_T       \
+    IDENT_T       t
+    NL_T          \n
+    28:     IF_T          if
+
+    IDENT_T       IF_T
+    IF_T          if
+    NL_T          \n
+    29:     IDENT_T       N
+
+    IDENT_T       IDENT_T
+    IDENT_T       N
+    NL_T          \n
+    30:     MOD_T         %
+
+    IDENT_T       MOD_T
+    MOD_T         %
+    NL_T          \n
+    31:     INTLIT_T      2
+
+    IDENT_T       INTLIT_T
+    INTLIT_T      2
+    NL_T          \n
+    32:     EQUAL_T       ==
+
+    IDENT_T       EQUAL_T
+    EQUAL_T       ==
+    NL_T          \n
+    33:     INTLIT_T      1
+
+    IDENT_T       INTLIT_T
+    INTLIT_T      1
+    NL_T          \n
+    34:     COLON_T       :
+
+    IDENT_T       COLON_T
+    COLON_T       :
+    NL_T          \n
+    35:     12: 		print(&N, 'is odd.')
+
+    INTLIT_T      12
+    COLON_T       :
+    TAB_T         \t
+    TAB_T         \t
+    PRINT_T       print
+    LPAREN_T      (
+Error: Invalid character found: & at 35,17
+    ERROR_T       &
+    IDENT_T       N
+    COMMA_T       ,
+    STRLIT_T      'is odd.'
+    RPAREN_T      )
+    NL_T          \n
+    36:     TAB_T         \t
+
+    IDENT_T       TAB_T
+Error: Invalid character found: \ at 36,19
+    ERROR_T       \
+    IDENT_T       t
+    NL_T          \n
+    37:     TAB_T         \t
+
+    IDENT_T       TAB_T
+Error: Invalid character found: \ at 37,19
+    ERROR_T       \
+    IDENT_T       t
+    NL_T          \n
+    38:     PRINT_T       print
+
+    IDENT_T       PRINT_T
+    PRINT_T       print
+    NL_T          \n
+    39:     LPAREN_T      (
+
+    IDENT_T       LPAREN_T
+    LPAREN_T      (
+    NL_T          \n
+    40: Error: Invalid character found: & at 12,9
+
+    IDENT_T       Error
+    COLON_T       :
+    IDENT_T       Invalid
+    IDENT_T       character
+    IDENT_T       found
+    COLON_T       :
+Error: Invalid character found: & at 40,33
+    ERROR_T       &
+    IDENT_T       at
+    INTLIT_T      12
+    COMMA_T       ,
+    INTLIT_T      9
+    NL_T          \n
+    41:     ERROR_T       &
+
+    IDENT_T       ERROR_T
+Error: Invalid character found: & at 41,19
+    ERROR_T       &
+    NL_T          \n
+    42:     IDENT_T       N
+
+    IDENT_T       IDENT_T
+    IDENT_T       N
+    NL_T          \n
+    43:     COMMA_T       ,
+
+    IDENT_T       COMMA_T
+    COMMA_T       ,
+    NL_T          \n
+    44:     STRLIT_T      'is odd.'
+
+    IDENT_T       STRLIT_T
+    STRLIT_T      'is odd.'
+    NL_T          \n
+    45:     RPAREN_T      )
+
+    IDENT_T       RPAREN_T
+    RPAREN_T      )
+    NL_T          \n
+    46:     13: 	else:
+
+    INTLIT_T      13
+    COLON_T       :
+    TAB_T         \t
+    ELSE_T        else
+    COLON_T       :
+    NL_T          \n
+    47:     TAB_T         \t
+
+    IDENT_T       TAB_T
+Error: Invalid character found: \ at 47,19
+    ERROR_T       \
+    IDENT_T       t
+    NL_T          \n
+    48:     ELSE_T        else
+
+    IDENT_T       ELSE_T
+    ELSE_T        else
+    NL_T          \n
+    49:     COLON_T       :
+
+    IDENT_T       COLON_T
+    COLON_T       :
+    NL_T          \n
+    50:     14: 		print(!N, 'is even.')
+
+    INTLIT_T      14
+    COLON_T       :
+    TAB_T         \t
+    TAB_T         \t
+    PRINT_T       print
+    LPAREN_T      (
+Error: Invalid character found: ! at 50,17
+    ERROR_T       !
+    IDENT_T       N
+    COMMA_T       ,
+    STRLIT_T      'is even.'
+    RPAREN_T      )
+    NL_T          \n
+    51:     TAB_T         \t
+
+    IDENT_T       TAB_T
+Error: Invalid character found: \ at 51,19
+    ERROR_T       \
+    IDENT_T       t
+    NL_T          \n
+    52:     TAB_T         \t
+
+    IDENT_T       TAB_T
+Error: Invalid character found: \ at 52,19
+    ERROR_T       \
+    IDENT_T       t
+    NL_T          \n
+    53:     PRINT_T       print
+
+    IDENT_T       PRINT_T
+    PRINT_T       print
+    NL_T          \n
+    54:     LPAREN_T      (
+
+    IDENT_T       LPAREN_T
+    LPAREN_T      (
+    NL_T          \n
+    55: Error: Invalid character found: ! at 14,9
+
+    IDENT_T       Error
+    COLON_T       :
+    IDENT_T       Invalid
+    IDENT_T       character
+    IDENT_T       found
+    COLON_T       :
+Error: Invalid character found: ! at 55,33
+    ERROR_T       !
+    IDENT_T       at
+    INTLIT_T      14
+    COMMA_T       ,
+    INTLIT_T      9
+    NL_T          \n
+    56:     ERROR_T       !
+
+    IDENT_T       ERROR_T
+Error: Invalid character found: ! at 56,19
+    ERROR_T       !
+    NL_T          \n
+    57:     IDENT_T       N
+
+    IDENT_T       IDENT_T
+    IDENT_T       N
+    NL_T          \n
+    58:     COMMA_T       ,
+
+    IDENT_T       COMMA_T
+    COMMA_T       ,
+    NL_T          \n
+    59:     STRLIT_T      'is even.'
+
+    IDENT_T       STRLIT_T
+    STRLIT_T      'is even.'
+    NL_T          \n
+    60:     RPAREN_T      )
+
+    IDENT_T       RPAREN_T
+    RPAREN_T      )
+    NL_T          \n
+    61:     15: 
+
+    INTLIT_T      15
+    COLON_T       :
+    NL_T          \n
+    62:     16: 
+
+    INTLIT_T      16
+    COLON_T       :
+    NL_T          \n
+    63:     17: main()
+
+    INTLIT_T      17
+    COLON_T       :
+    IDENT_T       main
+    LPAREN_T      (
+    RPAREN_T      )
+    NL_T          \n
+    64:     IDENT_T       main
+
+    IDENT_T       IDENT_T
+    IDENT_T       main
+    NL_T          \n
+    65:     LPAREN_T      (
+
+    IDENT_T       LPAREN_T
+    LPAREN_T      (
+    NL_T          \n
+    66:     RPAREN_T      )
+
+    IDENT_T       RPAREN_T
+    RPAREN_T      )
+    NL_T          \n
+    67:     EOF_T         eof
+
+    IDENT_T       EOF_T
+    IDENT_T       eof
+    NL_T          \n
+    68: 2 errors found in input file
+
+    INTLIT_T      2
+    IDENT_T       errors
+    IDENT_T       found
+    IN_T          in
+    INPUT_T       input
+    IDENT_T       file
+    NL_T          \n
+    EOF_T         eof
+13 errors found in input file

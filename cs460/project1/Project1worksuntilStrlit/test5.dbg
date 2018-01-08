@@ -1,0 +1,10 @@
+1: # take input from the user
+2: num = int(input("Enter a number: ))
+    IDENT_T       num
+    ASSIGN_T      =
+    INT_T         int
+    LPAREN_T      (
+    INPUT_T       input
+    LPAREN_T      (
+    ERROR_T       Enter a number: ))
+ 

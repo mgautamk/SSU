@@ -1,0 +1,877 @@
+------------------AVL TREE INDEX----------------------------------
+AVL Tree Index:
+-------------------------
+ 4, 12, 17, 31, 39, 49, 63, 91, 110, 113, 130, 136, 148, 156, 161
+'call 21
+'ignorant' 95
+'proper' 57
+0 50
+0c0h 49
+0eah 48
+13h 13, 98, 145
+15h 146
+1984 94
+21h 18, 39, 131, 148, 151
+24h 34
+2ah 152
+2fh 74, 81
+30h 49
+33 98
+4 49
+70B4 97
+70h 91
+AH0 34
+AH40h 151
+AL 35
+ALL 131
+ANYTHING 139
+AV 133, 153
+AX 108
+All 91, 92, 157
+Anymore 161
+Anyway 60
+BIOS 8, 13, 136
+BIOSes 138
+BL 151, 153
+BL80h 152
+Back 52
+Backdoors 3
+Be 14
+Brown's 68
+Browns 130
+By 148
+CALL 110
+CARO 95
+CL 42
+CPM 19
+Call 38
+Creeping 94
+DOS 9, 20, 22, 34, 39, 63, 69, 71, 91, 97, 98, 132, 150, 154, 156
+DSDX 88
+DSSI 108
+Daemon 95
+Death 94
+Disk 9
+ESBX 88
+EndP 53
+F000EC59 145
+F000F859 146
+FAR 48, 110
+FF1E 110
+Flags 46
+Floppy 145
+From 88
+Get 74
+Hard 12
+Have 130, 156
+Here 142
+I 28, 161
+I'd 95
+I'm 30, 40, 66
+If 21, 67, 152, 156, 161
+Int 13, 98, 146, 148, 151
+Int13h 9
+Int21h 9, 37, 53, 57, 156
+Int2ah 148
+Int2fh 63, 130
+Int30h 17, 57
+Int40h 12, 13
+Interrupt 50
+It 17, 19, 22, 42, 133, 158
+JMP 48
+John 29
+MG 59
+MSDOS 7
+Method 33, 55
+Most 8
+Near 37
+Not 161
+Now 83
+One 33
+PSP 21
+PSP5 21
+PTR 48, 110
+Proc 37
+Put 81
+QEMM 138
+QarkVLAD 4
+Ralf 68, 130
+SI1 107
+SI2 108
+SIWhere 119
+Save 76
+Seg70h 91
+Segment 91
+Stack 43
+Switzer 29
+Thanx 29
+The 7, 12, 132
+There 24, 137
+This 17, 27, 56, 58, 93, 113, 148, 153
+To 71
+Truly 40
+Two 55
+We've 116
+When 63, 64
+Within 136
+You 26, 34
+a 8, 17, 21, 23, 25, 96, 130, 136, 137, 142, 143, 156, 157, 158
+about 23
+abused 8
+access 91
+actually 22
+address 19, 57, 119
+addresses 64, 65, 142
+agree 40
+ah13h 64, 73
+ah82h 149
+all 17, 58
+alot 137
+also 59
+although 30
+an 17, 27
+and 7, 8, 9, 13, 20, 34, 60, 63, 94, 95, 96, 132, 138
+another 153
+any 35, 134, 156, 161
+anyway 143
+anywhere 28
+appreciate 30
+are 23, 24, 46, 58, 67, 137, 138, 142
+article 7
+as 39, 89, 95, 137
+at 17, 18, 21, 92, 130
+ax 44
+ax1effh 110
+ax5d00h 157
+ax70h 100
+axoffset 43
+back 81
+backdoor 24
+backdoors 7
+backwards 43
+basic 158
+be 8, 13, 25, 27, 35, 139, 140, 152, 158
+because 15, 139
+been 97
+but 23, 28, 66, 133, 139, 143
+bx 79, 83
+by 8, 12, 13, 24, 26, 27, 58, 91, 94, 95, 148, 151
+bypassing 133
+bytes 24, 93
+call 156
+called 13, 61, 64, 148, 150, 152
+calling 26
+calls 22, 69, 93
+can 8, 13, 26, 34, 60, 68, 88, 131, 139, 140, 149, 156, 161
+can't 35
+cautious 14
+certain 149
+change 149, 152
+choose 88
+clah 42
+closer 65, 67
+cmp 110, 113
+code 38
+concern 9
+concerns 7
+could 25, 27
+creeping 59
+cs 45
+csorigstore2word 123
+csorigstoreword 122
+db 48
+death 59
+debugger 96
+dec 107
+destructive 26
+detail 134
+different 56, 93
+directly 26
+disk 12, 13, 91, 145
+disks 14
+dispatcher' 22
+do 69, 92, 131, 156, 157
+done 140
+ds 77, 85
+dsax 101
+due 23
+dw 49, 50
+dx 78, 84
+earlier 20
+easy 158
+eg 151
+either 88
+emulation 20
+ends 8
+entry 136, 137
+equal 67
+es 76, 86
+every 130, 148
+far 17
+fashion 27
+few 137
+file 148
+first 25, 93
+firstbackdoor 103, 111, 114
+floppy 12, 14
+fool 153
+for 8, 19, 25, 29, 64, 92, 130, 133, 154
+found 116
+from 38
+function 22, 27, 39, 64, 148, 150, 151, 153, 156
+functions 34, 35, 131
+get 57
+gets 12, 63
+go 29, 134
+going 97
+good 26, 60
+got 83
+grab 71
+guaranteed 142
+half 143
+handler 12, 18
+handlers 83
+handy 133
+hard 25
+harddisk 15
+has 97
+have 28, 92, 143, 157
+having 96
+he 30
+here 88
+hooked 13
+hooks 63
+huge 134
+if 15, 69
+in 7, 20, 27, 56, 68, 94, 130, 134, 151, 157
+incompatible 138
+infact 17
+infect 14
+infection 25
+information 7, 21, 30
+int 39, 74, 81, 145, 152
+int13h 63, 66, 71, 89, 121
+int13h's 74
+int21h 158
+int30h 19, 22
+interrupt 9, 17, 18, 130, 131
+interrupts 137
+into 121, 134
+is 13, 15, 17, 18, 21, 43, 56, 58, 64, 65, 66, 91, 92, 94, 113, 119, 132, 133, 148, 152, 157
+isn't 15, 139
+it 15, 23, 26, 27, 28, 56, 63, 64, 68, 69, 92, 116, 124, 131, 133, 140, 153
+it's 8, 30, 61
+its 64
+jmp 116
+jnz 111, 114
+jump 17
+just 113
+jz 105
+know 161
+last 46
+list 142
+listed 95
+loaded 63
+lodsw 108
+look 21, 68, 97, 130, 143, 157
+lurk 136
+may 154
+me 29, 161
+messed 27
+messing 71
+method 25, 58, 93
+microsoft 23
+misses 23
+modifying 149
+monitors 133, 153
+most 153
+mov 42, 43, 73, 100, 101, 102, 119, 122, 123, 125, 126
+much 133
+multiplied 151
+must 130
+no 15
+not 17, 28, 66, 142
+number 136
+of 9, 19, 20, 24, 57, 59, 67, 93, 136, 138, 142, 154, 161
+often 67
+on 97, 133, 148
+one 65
+only 34, 132, 154
+or 25, 88, 104, 128, 149
+original 18, 57, 63, 66, 71, 98
+originally 19
+other 66
+our 83, 124
+ourint13 125
+out 29, 61, 97, 132
+own 8, 64
+parameters 38
+passes 91
+payload 26
+play 67
+point 69, 124
+points 136, 138
+pop 83, 84, 85, 86
+present 15
+probably 68
+problem 132
+problems 137
+programmer 131
+programs 28
+ptr 113, 122, 123, 125, 126
+push 44, 45, 76, 77, 78, 79
+pushf 46
+real 39
+really 25
+registers 149, 157
+related 148
+relocated 12
+remains 20
+require 35
+research 61
+researchers 60
+ret 52, 128
+returnaddr 43, 51
+returns 65
+right 69
+running 96
+same 38
+save 121
+saves 63
+scan 92
+see 28
+segmentoffset 56
+service 156
+services 9, 10
+set 15, 157
+setfakeint13 116
+setfakeint13h 118
+should 153, 158
+si 107, 122
+si0b4h 113
+si2 102, 123
+si2cs 126
+simulated 158
+since 98
+sioffset 125
+sisi 104, 119
+slightly 65
+so 132
+some 28, 154
+sometime 92
+sometimes 146
+stack 149
+stacks 132
+stationary 136
+stop 140
+store 98
+stored 18, 120
+stores 150
+stuff 23
+suggest 96
+supplying 29
+sure 30, 40, 66
+table 50, 157
+talented 60
+talking 23
+tell 161
+than 66
+that 8, 18, 35, 56, 58, 61, 139, 142, 150, 161
+thats 61
+the 7, 9, 12, 18, 19, 21, 22, 24, 38, 39, 56, 57, 58, 59, 63, 65, 66, 67, 69, 71, 74, 93, 94, 98, 119, 121, 131, 132, 143, 149, 151, 152
+them 9, 76, 81, 138
+there 20, 113, 139
+these 137
+they 67, 81, 139
+think 161
+this 7, 14, 24, 29, 34, 38, 64, 68, 96, 130, 152, 156, 159
+through 91, 92, 96
+time 143
+to 12, 14, 18, 22, 23, 28, 29, 34, 52, 57, 58, 65, 69, 81, 88, 92, 97, 98, 108, 124, 134, 136, 140, 142, 150, 153, 157, 158
+today 20
+too 66, 134
+two 24, 65, 67, 151
+unusual 27
+up 23, 27, 68, 71, 157
+use 26, 31, 34, 64, 88
+used 8, 14, 19, 35, 58, 91, 94
+useful 139, 146
+user 52
+uses 42, 56
+using 14, 24, 97, 158
+versions 20, 154
+very 60
+virus 8, 59, 69, 94, 121, 124, 131
+viruses 95
+want 150
+was 19, 93, 150
+way 25
+ways 24
+we 23, 58
+we've 83
+weird 40
+were 81
+what 81
+what's 97
+whatever 128, 150
+when 14, 152
+where 65
+wherever 105
+which 66
+who 59
+why 61
+will 151
+with 34, 38, 68, 96, 137, 138
+without 71
+won't 138
+word 113, 125, 126
+work 28, 60, 97, 138, 143, 154
+working 132
+wouldn't 30
+write 158
+writers 59
+wrote 59
+xxxx 110
+yet 28
+you 21, 60, 67, 68, 69, 88, 92, 149, 150, 152, 156, 157, 161
+you'll 40
+your 38, 69, 89, 157
+yourself 61, 68
+*****************************************************************
+------------------BST TREE INDEX----------------------------------
+ 4, 12, 17, 31, 39, 49, 63, 91, 110, 113, 130, 136, 148, 156, 161
+'call 21
+'ignorant' 95
+'proper' 57
+0 50
+0c0h 49
+0eah 48
+13h 13, 98, 145
+15h 146
+1984 94
+21h 18, 39, 131, 148, 151
+24h 34
+2ah 152
+2fh 74, 81
+30h 49
+33 98
+4 49
+70B4 97
+70h 91
+AH0 34
+AH40h 151
+AL 35
+ALL 131
+ANYTHING 139
+AV 133, 153
+AX 108
+All 91, 92, 157
+Anymore 161
+Anyway 60
+BIOS 8, 13, 136
+BIOSes 138
+BL 151, 153
+BL80h 152
+Back 52
+Backdoors 3
+Be 14
+Brown's 68
+Browns 130
+By 148
+CALL 110
+CARO 95
+CL 42
+CPM 19
+Call 38
+Creeping 94
+DOS 9, 20, 22, 34, 39, 63, 69, 71, 91, 97, 98, 132, 150, 154, 156
+DSDX 88
+DSSI 108
+Daemon 95
+Death 94
+Disk 9
+ESBX 88
+EndP 53
+F000EC59 145
+F000F859 146
+FAR 48, 110
+FF1E 110
+Flags 46
+Floppy 145
+From 88
+Get 74
+Hard 12
+Have 130, 156
+Here 142
+I 28, 161
+I'd 95
+I'm 30, 40, 66
+If 21, 67, 152, 156, 161
+Int 13, 98, 146, 148, 151
+Int13h 9
+Int21h 9, 37, 53, 57, 156
+Int2ah 148
+Int2fh 63, 130
+Int30h 17, 57
+Int40h 12, 13
+Interrupt 50
+It 17, 19, 22, 42, 133, 158
+JMP 48
+John 29
+MG 59
+MSDOS 7
+Method 33, 55
+Most 8
+Near 37
+Not 161
+Now 83
+One 33
+PSP 21
+PSP5 21
+PTR 48, 110
+Proc 37
+Put 81
+QEMM 138
+QarkVLAD 4
+Ralf 68, 130
+SI1 107
+SI2 108
+SIWhere 119
+Save 76
+Seg70h 91
+Segment 91
+Stack 43
+Switzer 29
+Thanx 29
+The 7, 12, 132
+There 24, 137
+This 17, 27, 56, 58, 93, 113, 148, 153
+To 71
+Truly 40
+Two 55
+We've 116
+When 63, 64
+Within 136
+You 26, 34
+a 8, 17, 21, 23, 25, 96, 130, 136, 137, 142, 143, 156, 157, 158
+about 23
+abused 8
+access 91
+actually 22
+address 19, 57, 119
+addresses 64, 65, 142
+agree 40
+ah13h 64, 73
+ah82h 149
+all 17, 58
+alot 137
+also 59
+although 30
+an 17, 27
+and 7, 8, 9, 13, 20, 34, 60, 63, 94, 95, 96, 132, 138
+another 153
+any 35, 134, 156, 161
+anyway 143
+anywhere 28
+appreciate 30
+are 23, 24, 46, 58, 67, 137, 138, 142
+article 7
+as 39, 89, 95, 137
+at 17, 18, 21, 92, 130
+ax 44
+ax1effh 110
+ax5d00h 157
+ax70h 100
+axoffset 43
+back 81
+backdoor 24
+backdoors 7
+backwards 43
+basic 158
+be 8, 13, 25, 27, 35, 139, 140, 152, 158
+because 15, 139
+been 97
+but 23, 28, 66, 133, 139, 143
+bx 79, 83
+by 8, 12, 13, 24, 26, 27, 58, 91, 94, 95, 148, 151
+bypassing 133
+bytes 24, 93
+call 156
+called 13, 61, 64, 148, 150, 152
+calling 26
+calls 22, 69, 93
+can 8, 13, 26, 34, 60, 68, 88, 131, 139, 140, 149, 156, 161
+can't 35
+cautious 14
+certain 149
+change 149, 152
+choose 88
+clah 42
+closer 65, 67
+cmp 110, 113
+code 38
+concern 9
+concerns 7
+could 25, 27
+creeping 59
+cs 45
+csorigstore2word 123
+csorigstoreword 122
+db 48
+death 59
+debugger 96
+dec 107
+destructive 26
+detail 134
+different 56, 93
+directly 26
+disk 12, 13, 91, 145
+disks 14
+dispatcher' 22
+do 69, 92, 131, 156, 157
+done 140
+ds 77, 85
+dsax 101
+due 23
+dw 49, 50
+dx 78, 84
+earlier 20
+easy 158
+eg 151
+either 88
+emulation 20
+ends 8
+entry 136, 137
+equal 67
+es 76, 86
+every 130, 148
+far 17
+fashion 27
+few 137
+file 148
+first 25, 93
+firstbackdoor 103, 111, 114
+floppy 12, 14
+fool 153
+for 8, 19, 25, 29, 64, 92, 130, 133, 154
+found 116
+from 38
+function 22, 27, 39, 64, 148, 150, 151, 153, 156
+functions 34, 35, 131
+get 57
+gets 12, 63
+go 29, 134
+going 97
+good 26, 60
+got 83
+grab 71
+guaranteed 142
+half 143
+handler 12, 18
+handlers 83
+handy 133
+hard 25
+harddisk 15
+has 97
+have 28, 92, 143, 157
+having 96
+he 30
+here 88
+hooked 13
+hooks 63
+huge 134
+if 15, 69
+in 7, 20, 27, 56, 68, 94, 130, 134, 151, 157
+incompatible 138
+infact 17
+infect 14
+infection 25
+information 7, 21, 30
+int 39, 74, 81, 145, 152
+int13h 63, 66, 71, 89, 121
+int13h's 74
+int21h 158
+int30h 19, 22
+interrupt 9, 17, 18, 130, 131
+interrupts 137
+into 121, 134
+is 13, 15, 17, 18, 21, 43, 56, 58, 64, 65, 66, 91, 92, 94, 113, 119, 132, 133, 148, 152, 157
+isn't 15, 139
+it 15, 23, 26, 27, 28, 56, 63, 64, 68, 69, 92, 116, 124, 131, 133, 140, 153
+it's 8, 30, 61
+its 64
+jmp 116
+jnz 111, 114
+jump 17
+just 113
+jz 105
+know 161
+last 46
+list 142
+listed 95
+loaded 63
+lodsw 108
+look 21, 68, 97, 130, 143, 157
+lurk 136
+may 154
+me 29, 161
+messed 27
+messing 71
+method 25, 58, 93
+microsoft 23
+misses 23
+modifying 149
+monitors 133, 153
+most 153
+mov 42, 43, 73, 100, 101, 102, 119, 122, 123, 125, 126
+much 133
+multiplied 151
+must 130
+no 15
+not 17, 28, 66, 142
+number 136
+of 9, 19, 20, 24, 57, 59, 67, 93, 136, 138, 142, 154, 161
+often 67
+on 97, 133, 148
+one 65
+only 34, 132, 154
+or 25, 88, 104, 128, 149
+original 18, 57, 63, 66, 71, 98
+originally 19
+other 66
+our 83, 124
+ourint13 125
+out 29, 61, 97, 132
+own 8, 64
+parameters 38
+passes 91
+payload 26
+play 67
+point 69, 124
+points 136, 138
+pop 83, 84, 85, 86
+present 15
+probably 68
+problem 132
+problems 137
+programmer 131
+programs 28
+ptr 113, 122, 123, 125, 126
+push 44, 45, 76, 77, 78, 79
+pushf 46
+real 39
+really 25
+registers 149, 157
+related 148
+relocated 12
+remains 20
+require 35
+research 61
+researchers 60
+ret 52, 128
+returnaddr 43, 51
+returns 65
+right 69
+running 96
+same 38
+save 121
+saves 63
+scan 92
+see 28
+segmentoffset 56
+service 156
+services 9, 10
+set 15, 157
+setfakeint13 116
+setfakeint13h 118
+should 153, 158
+si 107, 122
+si0b4h 113
+si2 102, 123
+si2cs 126
+simulated 158
+since 98
+sioffset 125
+sisi 104, 119
+slightly 65
+so 132
+some 28, 154
+sometime 92
+sometimes 146
+stack 149
+stacks 132
+stationary 136
+stop 140
+store 98
+stored 18, 120
+stores 150
+stuff 23
+suggest 96
+supplying 29
+sure 30, 40, 66
+table 50, 157
+talented 60
+talking 23
+tell 161
+than 66
+that 8, 18, 35, 56, 58, 61, 139, 142, 150, 161
+thats 61
+the 7, 9, 12, 18, 19, 21, 22, 24, 38, 39, 56, 57, 58, 59, 63, 65, 66, 67, 69, 71, 74, 93, 94, 98, 119, 121, 131, 132, 143, 149, 151, 152
+them 9, 76, 81, 138
+there 20, 113, 139
+these 137
+they 67, 81, 139
+think 161
+this 7, 14, 24, 29, 34, 38, 64, 68, 96, 130, 152, 156, 159
+through 91, 92, 96
+time 143
+to 12, 14, 18, 22, 23, 28, 29, 34, 52, 57, 58, 65, 69, 81, 88, 92, 97, 98, 108, 124, 134, 136, 140, 142, 150, 153, 157, 158
+today 20
+too 66, 134
+two 24, 65, 67, 151
+unusual 27
+up 23, 27, 68, 71, 157
+use 26, 31, 34, 64, 88
+used 8, 14, 19, 35, 58, 91, 94
+useful 139, 146
+user 52
+uses 42, 56
+using 14, 24, 97, 158
+versions 20, 154
+very 60
+virus 8, 59, 69, 94, 121, 124, 131
+viruses 95
+want 150
+was 19, 93, 150
+way 25
+ways 24
+we 23, 58
+we've 83
+weird 40
+were 81
+what 81
+what's 97
+whatever 128, 150
+when 14, 152
+where 65
+wherever 105
+which 66
+who 59
+why 61
+will 151
+with 34, 38, 68, 96, 137, 138
+without 71
+won't 138
+word 113, 125, 126
+work 28, 60, 97, 138, 143, 154
+working 132
+wouldn't 30
+write 158
+writers 59
+wrote 59
+xxxx 110
+yet 28
+you 21, 60, 67, 68, 69, 88, 92, 149, 150, 152, 156, 157, 161
+you'll 40
+your 38, 69, 89, 157
+yourself 61, 68

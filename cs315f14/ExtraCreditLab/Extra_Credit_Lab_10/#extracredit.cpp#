@@ -1,0 +1,33 @@
+//*****************************************************************************
+//Author: Mahesh Gautam
+//Class: CS 315 Fall 2014
+//Instructor: Dr. Bala RaviKumar
+//Assignment: Extra Credit Assignment
+//Description: This program uses EasyBMP to AVi to prodece a video 
+//from converted frames of BMPImages produced after the result of heapsort. 
+//*******************************************************************************
+#include <iostream>
+#include <algorithm>
+#include "EasyBMP.h"
+#include "EasyBMP.cpp"
+
+using namespace std;
+
+//takes k as input and creates a starting image
+void startRandImage(BMP &img, int k)
+{
+
+
+
+
+}
+
+
+int main()
+{
+
+
+
+
+
+}

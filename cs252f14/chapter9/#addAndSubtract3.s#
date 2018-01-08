@@ -1,0 +1,78 @@
+# addAndSubtract3.s
+# Gets two integers from user, then
+# performs addition and subtraction
+# Mahesh Gautam Oct 6 2014
+# Stack frame
+
+	.equ w,-16
+	.equ x,-12
+	.equ y,-8
+	.equ z,-4
+	.equ localSize,-16
+#Read only data
+	.section .rodata
+prompt:
+	.string "Enter two integers: "
+getData:
+	.string "%i %i"
+display:
+	.string "sum = %i, difference = %i\n"
+warning:
+	.string "Overflow has occurred.\n"
+#Code
+	.text
+	.globl main
+	.type main, @function
+main:
+	pushq %rbp # save caller’s base pointer
+	movq %rsp, %rbp # establish our base pointer
+	addq $localSize, %rsp # for local vars
+
+	movl $prompt, %edi # prompt user
+	movl $0, %eax # no floats
+	call printf
+
+	leaq x(%rbp), %rdx # &x
+	leaq w(%rbp), %rsi # &w
+	movl $getData, %edi # get user data
+	movl $0, %eax # no floats
+	call scanf
+
+##############################################################
+# These three instructions could replace the four that follow
+# this sequence. They work because mov does not affect eflags.
+# But changes in the code may introduce an instruction before
+# the jno that does affect eflags, thus breaking the code.
+# movl w(%rbp), %eax # load w
+# addl y(%rbp), %eax # add y
+# movl %eax, y(%rbp) # y = w + x
+##############################################################
+
+	movl w(%rbp), %eax # load w
+	movl %eax, y(%rbp) # y = w
+	movl x(%rbp), %eax # load x
+	addl %eax, y(%rbp) # y = w + x
+	jno nOver1 # skip warning if no OF
+	movl $warning, %edi #### changes edi
+	movl $0, %eax
+	call printf #### may change several registers
+nOver1:
+	movl w(%rbp), %eax # load w
+	movl %eax, z(%rbp) # z = w
+	movl x(%rbp), %eax # load x
+	subl %eax, z(%rbp) # z = w - x
+	jno nOver2 # skip warning if no OF
+	movl $warning, %edi
+	movl $0, %eax
+	call printf
+nOver2:
+	movl z(%rbp), %edx # load z
+	movl y(%rbp), %esi # and y
+	movl $display, %edi # display results
+	movl $0, %eax # no floats
+	call printf
+
+	movl $0, %eax # return 0 to OS
+	movq %rbp, %rsp # restore stack pointer
+	popq %rbp # restore caller’s base pointer
+	ret

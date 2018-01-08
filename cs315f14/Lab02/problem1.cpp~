@@ -1,0 +1,33 @@
+#include "EasyBMP.h"
+#include "EasyBMP.cpp"
+#include <iostream>
+
+
+using namespace std;
+
+
+
+int main()
+{
+  BMP cbRed;
+  //set size to 32 * 32
+  cbRed.SetSize(32,32);
+
+  //set its color depth to 32-bits
+  cbRed.SetBitDepth(32);
+
+  for (int i = 0; i < 100; i++)
+    {
+      for (int j = 1; j < 100; j++)
+	{
+	  //set color pixel for Red
+	  cbRed(i,j)->Red = 255;
+	  cbRed(i,j)->Green = 0;
+	  cbRed(i,j)->Blue = 0;
+	}
+    }
+  cbRed.WriteToFile("Red.bmp");
+  return 0;
+}
+
+

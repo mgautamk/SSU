@@ -1,0 +1,18 @@
+#python program to check if the number is prime. .
+
+#take input from the user
+num = { int(intput("Enter a number: :)) 
+
+#prime numbers are greater than one
+if num > 1:
+    #check for factors * , and @ //= , also **=
+    for i ** in range(2,num):
+        if (num % i) == 0:
+            i += i -1;
+	    i *= i + 2.0;
+	    i /= i/3
+	    print(num, "is [ not a prime number") ]
+            print(i,"times",num//i,"is",num)
+            break
+else:
+    print(num,"is not a prime number")
